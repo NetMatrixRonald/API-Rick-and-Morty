@@ -1,0 +1,46 @@
+.Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  text-align: center;
+  font-family: 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-weight: 800;
+  font-size: 4rem;
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(32, 35, 41);
+}
+
+.List {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(32, 35, 41);
+  padding: 20px;
+}
+
+.Personajes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.load-more {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.load-more:hover {
+  background-color: #0056b3;
+}
